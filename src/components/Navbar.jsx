@@ -112,11 +112,11 @@ export default function Navbar() {
 
       {/* Mobile Sidebar Menu */}
       <div
-        className={`fixed top-0 left-0 h-full w-64 bg-blue-600 shadow-lg transform transition-transform duration-300 z-50 ${
+        className={`fixed top-0 left-0 h-full w-64 bg-slate-900 shadow-lg transform transition-transform duration-300 z-50 ${
           isOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >
-        <div className="flex justify-between items-center p-4 border-b border-blue-500">
+        <div className="flex justify-between items-center p-4 border-b ">
           <span className="text-white font-bold text-xl">Menu</span>
           <button
             className="text-white text-2xl font-bold"

@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 
 export default function HomeSlider() {
   const images = [
-    "public/specification-banner.jpeg",
-    "public/slider1-bg.jpeg",
-    "public/slider2-bg.jpeg",
+    "/specification-banner.jpeg",
+    "/slider1-bg.jpeg",
+    "/slider2-bg.jpeg",
   ];
 
   const [current, setCurrent] = useState(0);
