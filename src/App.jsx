@@ -9,6 +9,7 @@ import ProductDetail from "./pages/ProductDetail";
 import Cart from "./pages/Cart";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+// import Topnav from "./components/Topnav";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       {/* ✅ Wrap entire app in CartProvider */}
       <BrowserRouter>
         <Navbar />
+        {/* <Topnav /> */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
