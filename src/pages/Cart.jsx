@@ -1,6 +1,7 @@
 import { useCart } from "../CartContext";
 import { useState } from "react";
-
+import RecommendedSlider from "../components/Boxwatch";
+import { useNavigate } from "react-router-dom";
 export default function Cart() {
   const { cart } = useCart();
 
@@ -32,6 +33,11 @@ export default function Cart() {
     }
     setProducts(updated);
   };
+  const navigate = useNavigate();
+
+  const handleCheckout = () => {
+    navigate("/checkout");
+  };
 
   const total = products.reduce(
     (acc, item) => acc + item.price * item.qty,
@@ -62,7 +68,7 @@ export default function Cart() {
                   {/* Product Img */}
                   <div className="relative w-20 h-20 flex-shrink-0">
                     <img
-                      src={item.img || "https://via.placeholder.com/80"}
+                       src={item.img || "https://via.placeholder.com/80"}
                       alt={item.name}
                       className="w-full h-full object-cover rounded-lg"
                     />
@@ -122,11 +128,15 @@ export default function Cart() {
             </div>
           </div>
 
-          <button className="mt-6 w-full bg-blue-600 text-white py-3 rounded-xl font-semibold hover:bg-blue-700 transition shadow-md">
+          <button
+           onClick={handleCheckout}
+          
+           className="mt-6 w-full bg-blue-600 text-white py-3 rounded-xl font-semibold hover:bg-blue-700 transition shadow-md">
             Proceed to Checkout
           </button>
         </div>
       </div>
+      <RecommendedSlider />
     </div>
   );
 }

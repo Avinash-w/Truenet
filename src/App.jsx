@@ -9,7 +9,9 @@ import ProductDetail from "./pages/ProductDetail";
 import Cart from "./pages/Cart";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-// import Topnav from "./components/Topnav";
+import Checkout from "./pages/Checkout";
+
+
 
 function App() {
   return (
@@ -17,13 +19,13 @@ function App() {
       {/* ✅ Wrap entire app in CartProvider */}
       <BrowserRouter>
         <Navbar />
-        {/* <Topnav /> */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/products" element={<Products />} />
           <Route path="/product/:id" element={<ProductDetail />} />
           <Route path="/cart" element={<Cart />} />
+            <Route path="/checkout" element={<Checkout />} />
         </Routes>
 
         {/* ✅ ToastContainer should be OUTSIDE Routes */}

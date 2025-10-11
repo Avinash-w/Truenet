@@ -7,10 +7,15 @@ import { toast } from "react-toastify";
 export default function Watch({ filters }) {
   const { addToCart } = useCart();
 
-  const handleAddToCart = (product) => {
-    addToCart(product);
-    toast.success(`${product.name} added to cart! 🎉`);
+ const handleAddToCart = (product) => {
+  const productWithImg = {
+    ...product,
+    img: product.images?.[0] || "", // ✅ Add the first image as 'img'
   };
+  addToCart(productWithImg);
+  toast.success(`${product.name} added to cart! 🎉`);
+};
+
 
   const filteredProducts = products.filter((p) => {
     return (

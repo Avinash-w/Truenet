@@ -8,6 +8,7 @@ import FeaturedCollections from "../components/FeaturedCollections";
 import Watchfeature from "../components/watchfeatured";
 import CTASection from "../components/CTA";
 import Collection from "../components/Collection";
+import Connected from "../components/Connected";
 
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       
       {/* Slider */}
       <HomeSlider />
+      <Connected />
       <CircleBoxes />
       <TwoImageSection />
       <RecommendedSlider />
