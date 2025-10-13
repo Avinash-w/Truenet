@@ -10,6 +10,10 @@ import Cart from "./pages/Cart";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Checkout from "./pages/Checkout";
+import Men from "./pages/Men";
+import WelcomeLightbox from "./components/WelcomeLightbox";
+import Footer from "./components/Footer";
+import Women from "./pages/Women";
 
 
 
@@ -19,20 +23,24 @@ function App() {
       {/* ✅ Wrap entire app in CartProvider */}
       <BrowserRouter>
         <Navbar />
+        <WelcomeLightbox />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/products" element={<Products />} />
+          <Route path="/Men" element={<Men />} />
+          <Route path="/Women" element={<Women />} />
           <Route path="/product/:id" element={<ProductDetail />} />
           <Route path="/cart" element={<Cart />} />
             <Route path="/checkout" element={<Checkout />} />
         </Routes>
-
+<Footer />
         {/* ✅ ToastContainer should be OUTSIDE Routes */}
         <ToastContainer position="top-right" autoClose={2000} />
       </BrowserRouter>
     </CartProvider>
   );
+  
 }
 
 export default App;

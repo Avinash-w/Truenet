@@ -2,6 +2,7 @@
 import { useState } from "react";
 import { useCart } from "../CartContext";
 import { Link } from "react-router-dom";
+import emailjs from "@emailjs/browser";
 
 export default function Checkout() {
   const { cart } = useCart();
@@ -20,8 +21,45 @@ export default function Checkout() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert("Order placed successfully! 🎉 Cash on delivery only.");
-    // Here you can also clear the cart or call an API
+
+    if (cart.length === 0) {
+      alert("Your cart is empty!");
+      return;
+    }
+
+    const totalPrice = cart.reduce((acc, item) => acc + item.price, 0);
+
+    // HTML for cart items
+    const cartHtml = cart.map(item => `
+      <tr>
+        <td style="padding:8px; border:1px solid #ddd;">${item.name}</td>
+        <td style="padding:8px; border:1px solid #ddd;">₹${item.price}</td>
+      </tr>
+    `).join("");
+
+    const templateParams = {
+      name: formData.name,
+      email: formData.email,
+      address: formData.address,
+      city: formData.city,
+      postalCode: formData.postalCode,
+      country: formData.country,
+      totalPrice: totalPrice,
+      cartItems: cartHtml
+    };
+
+    emailjs.send(
+      "service_l1g8fze",           // your EmailJS Service ID
+      "template_52eadb7",          // your EmailJS Template ID
+      templateParams,
+      "4Oa8qg9u9s7LL6XcK"            // your EmailJS Public Key
+    ).then(() => {
+      alert("Order placed successfully! 🎉 Confirmation email sent.");
+      // Optionally clear cart or form here
+    }).catch((err) => {
+      console.error(err);
+      alert("Failed to send email. Please try again.");
+    });
   };
 
   const totalPrice = cart.reduce((acc, item) => acc + item.price, 0);
@@ -42,7 +80,7 @@ export default function Checkout() {
             { name: "city", placeholder: "City", type: "text" },
             { name: "postalCode", placeholder: "Postal Code", type: "text" },
             { name: "country", placeholder: "Country", type: "text" },
-          ].map((field) => (
+          ].map(field => (
             <input
               key={field.name}
               type={field.type}
