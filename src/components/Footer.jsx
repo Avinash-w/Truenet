@@ -2,125 +2,122 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <footer className="bg-black text-gray-300 pt-10 pb-6 mt-10">
-      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-10">
-        {/* 🧭 Logo + About */}
-        <div>
+    <footer className="bg-gradient-to-b from-black to-[#0e0e0e] text-gray-400">
+      <div className="max-w-7xl mx-auto px-6 py-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-12">
+        
+        {/* Brand */}
+        <div className="text-center sm:text-left">
           <img
             src="/logoblacki - Copy.jpeg"
-            alt="Logo"
-            className="w-32 mb-4"
+            alt="Truenet Watches"
+            className="w-36 mb-4 mx-auto sm:mx-0"
           />
-          <p className="text-sm leading-relaxed">
-            Truenet brings you premium-quality watches that blend timeless
-            design with modern craftsmanship. Discover your next signature
-            style today.
+          <p className="text-sm leading-relaxed max-w-xs mx-auto sm:mx-0">
+            Discover premium watches crafted with precision, elegance, and
+            timeless design. Your perfect timepiece awaits.
           </p>
         </div>
 
-        {/* 🔗 Quick Links */}
-        <div>
-          <h3 className="text-lg font-semibold text-white mb-3">Quick Links</h3>
-          <ul className="space-y-2">
-            <li>
-              <Link to="/" className="hover:text-[#d1b307] transition">
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link to="/products" className="hover:text-[#d1b307] transition">
-                Products
-              </Link>
-            </li>
-            <li>
-              <Link to="/men" className="hover:text-[#d1b307] transition">
-                Men
-              </Link>
-            </li>
-            <li>
-              <Link to="/women" className="hover:text-[#d1b307] transition">
-                Women
-              </Link>
-            </li>
-            <li>
-              <Link to="/premium-watches" className="hover:text-[#d1b307] transition">
-                Premium Watches
-              </Link>
-            </li>
-          </ul>
-        </div>
-
-        {/* 🛍️ Customer Service */}
-        <div>
-          <h3 className="text-lg font-semibold text-white mb-3">Customer Service</h3>
-          <ul className="space-y-2">
-            <li>
-              <Link to="/track-order" className="hover:text-[#d1b307] transition">
-                Track Order
-              </Link>
-            </li>
-            <li>
-              <Link to="/wishlist" className="hover:text-[#d1b307] transition">
-                Wishlist
-              </Link>
-            </li>
-            <li>
-              <Link to="/cart" className="hover:text-[#d1b307] transition">
-                My Cart
-              </Link>
-            </li>
-            <li>
-              <Link to="/about" className="hover:text-[#d1b307] transition">
-                About Us
-              </Link>
-            </li>
-            <li>
-              <Link to="/contact" className="hover:text-[#d1b307] transition">
-                Contact Us
-              </Link>
-            </li>
-          </ul>
-        </div>
-
-        {/* 📞 Contact */}
-        <div>
-          <h3 className="text-lg font-semibold text-white mb-3">Get In Touch</h3>
+        {/* Quick Links */}
+        <div className="text-center sm:text-left">
+          <h3 className="text-white font-semibold tracking-wide mb-4">
+            Shop
+          </h3>
           <ul className="space-y-2 text-sm">
-            <li>
-              📍 New Delhi, India
+            {[
+              ["Home", "/"],
+              ["All Watches", "/products"],
+              ["Men", "/men"],
+              ["Women", "/women"],
+              ["Premium Watches", "/premium-watches"],
+            ].map(([label, link], i) => (
+              <li key={i}>
+                <Link
+                  to={link}
+                  className="hover:text-[#d1b307] transition-colors"
+                >
+                  {label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        {/* Customer Care */}
+        <div className="text-center sm:text-left">
+          <h3 className="text-white font-semibold tracking-wide mb-4">
+            Customer Care
+          </h3>
+          <ul className="space-y-2 text-sm">
+            {[
+              ["Track Order", "/track-order"],
+              ["Wishlist", "/wishlist"],
+              ["My Cart", "/cart"],
+              ["About Us", "/about"],
+              ["Contact Us", "/contact"],
+            ].map(([label, link], i) => (
+              <li key={i}>
+                <Link
+                  to={link}
+                  className="hover:text-[#d1b307] transition-colors"
+                >
+                  {label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        {/* Contact */}
+        <div className="text-center sm:text-left">
+          <h3 className="text-white font-semibold tracking-wide mb-4">
+            Get in Touch
+          </h3>
+
+          <ul className="space-y-3 text-sm">
+            <li className="flex justify-center sm:justify-start gap-2">
+              <span>📍</span> New Delhi, India
             </li>
-            <li>
-              📞 +91 9876543210
+            <li className="flex justify-center sm:justify-start gap-2">
+              <span>📞</span> +91 98765 43210
             </li>
-            <li>
-              ✉️ support@truenet.com
+            <li className="flex justify-center sm:justify-start gap-2">
+              <span>✉️</span> support@truenet.com
             </li>
           </ul>
-          <div className="flex space-x-4 mt-4">
-            <a href="#" className="hover:text-[#d1b307] transition">
-              <i className="fab fa-facebook-f"></i>
-            </a>
-            <a href="#" className="hover:text-[#d1b307] transition">
-              <i className="fab fa-instagram"></i>
-            </a>
-            <a href="#" className="hover:text-[#d1b307] transition">
-              <i className="fab fa-twitter"></i>
-            </a>
+
+          {/* Social */}
+          <div className="flex justify-center sm:justify-start gap-4 mt-5">
+            {["facebook-f", "instagram", "twitter"].map((icon, i) => (
+              <a
+                key={i}
+                href="#"
+                className="w-9 h-9 flex items-center justify-center 
+                           rounded-full border border-gray-700
+                           hover:border-[#d1b307] hover:text-[#d1b307]
+                           transition"
+              >
+                <i className={`fab fa-${icon}`}></i>
+              </a>
+            ))}
           </div>
         </div>
       </div>
 
-      {/* Bottom Footer */}
-      <div className="text-center text-sm border-t border-gray-700 pt-4">
-        © {new Date().getFullYear()} Truenet. All rights reserved. | Designed by{" "}
-        <a
-          href="https://braintechinfosolutions.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-blue-400 hover:underline"
-        >
-          braintechinfosolutions.com
-        </a>
+      {/* Bottom Bar */}
+      <div className="border-t border-gray-800 py-4 text-center text-xs text-gray-500">
+        © {new Date().getFullYear()} Truenet Watches. All rights reserved.  
+        <span className="block sm:inline sm:ml-2">
+          Designed by{" "}
+          <a
+            href="https://braintechinfosolutions.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#d1b307] hover:underline"
+          >
+            BrainTech Info Solutions
+          </a>
+        </span>
       </div>
     </footer>
   );

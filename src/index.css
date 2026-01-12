@@ -9,3 +9,6 @@
 .animate-fadeIn {
   animation: fadeIn 0.3s ease-out;
 }
+body {
+  font-family: 'Montserrat', sans-serif;
+}

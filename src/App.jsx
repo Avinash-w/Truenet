@@ -14,11 +14,13 @@ import Men from "./pages/Men";
 import WelcomeLightbox from "./components/WelcomeLightbox";
 import Footer from "./components/Footer";
 import Women from "./pages/Women";
-
+import Sale from "./pages/Sale";
+import PremiumWatches from "./pages/PremiumWatches";
 
 
 function App() {
   return (
+    
     <CartProvider>
       {/* ✅ Wrap entire app in CartProvider */}
       <BrowserRouter>
@@ -30,9 +32,11 @@ function App() {
           <Route path="/products" element={<Products />} />
           <Route path="/Men" element={<Men />} />
           <Route path="/Women" element={<Women />} />
+          <Route path="/sale" element={<Sale />} />
           <Route path="/product/:id" element={<ProductDetail />} />
           <Route path="/cart" element={<Cart />} />
             <Route path="/checkout" element={<Checkout />} />
+              <Route path="/Premium" element={<PremiumWatches />} />
         </Routes>
 <Footer />
         {/* ✅ ToastContainer should be OUTSIDE Routes */}

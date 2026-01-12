@@ -9,12 +9,12 @@ export default function Navbar() {
 
   const navItems = [
     { name: "Home", path: "/" },
-    { name: "About", path: "/about" },
+    // { name: "About", path: "/about" },
     { name: "Products", path: "/products" },
     { name: "Men", path: "/men" },
     { name: "Women", path: "/women" },
-    { name: "Premium Watches", path: "/premium-watches" },
-    { name: "Watches", path: "/watches" },
+    { name: "Premium Watches", path: "/Premium" },
+    { name: "Collections", path: "/products" },
     { name: "Sale", path: "/sale" },
   ];
 

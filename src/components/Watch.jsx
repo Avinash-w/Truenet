@@ -47,7 +47,7 @@ export default function Watch({ filters }) {
             
             <h2  className="mt-4 text-lg font-semibold">{product.name}</h2>
             <p className="text-gray-600">₹{product.price}</p>
-            <p className="text-sm text-gray-500 mt-2">{product.description}</p>
+            {/* <p className="text-sm text-gray-500 mt-2">{product.description}</p> */}
             <div className="flex gap-3 mt-4">
               <button
                 onClick={() => handleAddToCart(product)}

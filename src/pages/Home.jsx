@@ -24,14 +24,12 @@ export default function Home() {
       <TwoImageTow />
       <FeaturedCollections/>
       <Watchfeature />
-      <Collection />
-      <CTASection />
+      <Collection / >
+      {/* <CTASection /> */}
       
      
 
-      <p className="text-center mt-6 text-lg text-gray-700">
-        Explore the latest collection of luxury, smart, and stylish watches.
-      </p>
+     
     </>
   );
 }

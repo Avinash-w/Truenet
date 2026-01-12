@@ -1,15 +1,16 @@
 [
   {
     "id": 1,
-    "name": "Truenet Black Dial Black Rubber Strap Analog Watch",
+    "name": "Truenet Black Two tone Dial Black Mesh Strap Analog Watch",
     "price": 599,
-    "description": "High-quality wireless headphones with noise cancellation.",
+     "mrp": 999,
+    "description": "A sleek and stylish analog watch featuring a black two-tone dial and a premium black mesh strap. Perfect for everyday wear, offering comfort, durability, and a modern minimalist look.",
     "gender": "Men",
-    "strapMaterial": "Strap",
+    "strapMaterial": "Fibre",
     "strapColor": "Black",
-    "dialType": "Normal",
+    "dialType": "Rounded",
     "dialColor": "Black",
-    "Warranty": "6months",
+    "Warranty": "6 months",
     "images": [
       "/truenet/TR-C27BL/img2.jpeg",
       "/truenet/TR-C27BL/img1.jpeg",
@@ -18,8 +19,9 @@
   },
   {
     "id": 2,
-    "name": "Truenet black watch with black dial or day date",
+    "name": "Truenet Black Dial Black Mesh Strap Day-Date Analog Watch",
     "price": 649,
+    "mrp": 999,
     "description": "High-quality wireless headphones with noise cancellation.",
     "gender": "Men",
     "strapMaterial": "Cloth",
@@ -28,15 +30,16 @@
     "dialColor": "Golden",
     "Warranty": "9 months",
     "images": [
+      "/truenet/TR-41BL/img3.jpeg",
       "/truenet/TR-41BL/img2.jpeg",
-      "/truenet/TR-41BL/img1.jpeg",
-      "/truenet/TR-41BL/img3.jpeg"
+      "/truenet/TR-41BL/img1.jpeg"
     ]
   },
   {
     "id": 3,
-    "name": "Truenet Blue Dial Leather Strap Casual Watch",
-    "price": 449,
+    "name": "Truenet Blue Dial Blue Leather Strap Analog Watch",
+    "price": 499,
+    "mrp": 1199,
     "description": "High-quality wireless headphones with noise cancellation.",
     "gender": "Men",
     "strapMaterial": "Cloth",
@@ -54,8 +57,9 @@
 
   {
     "id": 4,
-    "name": "Truenet Silver White Dial Stainless Steel Chain Classic Watch",
-    "price": 449,
+    "name": "Truenet Blue Dial Blue Leather Strap Analog Watch",
+    "price": 599,
+    "mrp": 999,
     "description": "High-quality wireless headphones with noise cancellation.",
     "gender": "Men",
     "strapMaterial": "Cloth",
@@ -73,8 +77,9 @@
   },
   {
     "id": 5,
-    "name": "Truenet Black Dial Leather Strap Casual Watch",
-    "price": 1999,
+    "name": "Truenet Black Dial Black Mesh Strap Analog Watch",
+    "price": 599,
+    "mrp": 999,
     "description": "High-quality wireless headphones with noise cancellation.",
     "gender": "Men",
     "strapMaterial": "Cloth",
@@ -84,15 +89,16 @@
     "Warranty": "9 months",
 
     "images": [
-      "/truenet/TR-C27BL/img2.jpeg",
-      "/truenet/TR-C27BL/img1.jpeg",
-      "/truenet/TR-C27BL/img3.jpeg"
+      "/truenet/TR--FB/img1.jpeg",
+      "/truenet/TR--FB/img2.jpeg",
+      "/truenet/TR--FB/img3.jpeg"
     ]
   },
   {
     "id": 6,
-    "name": "Truenet Blue Dial Leather Strap Casual Watch",
-    "price": 1999,
+    "name": "Truenet Blue Textured Dial Blue Leather Strap Day-Date Analog Watch",
+    "price": 499,
+    "mrp": 999,
     "description": "High-quality wireless headphones with noise cancellation.",
     "gender": "Men",
     "strapMaterial": "Cloth",
@@ -110,8 +116,9 @@
   },
   {
     "id": 7,
-    "name": "Truenet Navy Blue Dial Rubber Strap Sports Watch",
-    "price": 1999,
+    "name": "Truenet Blue Sunray Dial Stainless Steel Day-Date Analog Watch",
+    "price": 999,
+    "mrp": 1899,
     "description": "High-quality wireless headphones with noise cancellation.",
     "gender": "Men",
     "strapMaterial": "Cloth",
@@ -121,17 +128,18 @@
     "Warranty": "9 months",
 
     "images": [
+      "/truenet/TR-DIA/img3.jpeg",
       "/truenet/TR-DIA/img1.jpeg",
       "/truenet/TR-DIA/img2.jpeg",
-      "/truenet/TR-DIA/img3.jpeg",
       "/truenet/TR-DIA/img4.jpeg"
       
     ]
   },
   {
     "id": 8,
-    "name": "Truenet Black Dial Leather Strap Analog Watch",
-    "price": 1999,
+    "name": "Truenet Black Glossy Dial Stainless Steel Day-Date Analog Watch",
+    "price": 999,
+    "mrp": 1799,
     "description": "High-quality wireless headphones with noise cancellation.",
     "gender": "Men",
     "strapMaterial": "Cloth",
@@ -141,38 +149,19 @@
     "Warranty": "9 months",
 
     "images": [
-      "/truenet/TR-BWST/img1.jpeg",
       "/truenet/TR-BWST/img2.jpeg",
+      "/truenet/TR-BWST/img1.jpeg",
       "/truenet/TR-BWST/img3.jpeg"
 
       
     ]
   },
-  {
-    "id": 9,
-    "name": "Truenet Brown Copper Dial Leather Strap Premium Day Date Watch",
-    "price": 1999,
-    "description": "High-quality wireless headphones with noise cancellation.",
-    "gender": "Men",
-    "strapMaterial": "Cloth",
-    "strapColor": "white",
-    "dialType": "DTD",
-    "dialColor": "Golden",
-    "Warranty": "9 months",
-
-    "images": [
-      "/truenet/TR-CHBL01/img1.jpeg",
-      "/truenet/TR-CHBL01/img2.jpeg",
-      "/truenet/TR-CHBL01/img3.jpeg",
-       "/truenet/TR-CHBL01/img4.jpeg"
-
-      
-    ]
-  },
+  
     {
     "id": 10,
-    "name": "Truenet Red Brown Dial Leather Strap Stylish Day Date Watch",
-    "price": 1999,
+    "name": "Truenet Royal Blue Dial Stainless Steel Day-Date Analog Watch",
+    "price": 999,
+    "mrp": 1599,
     "description": "High-quality wireless headphones with noise cancellation.",
     "gender": "Men",
     "strapMaterial": "Cloth",
@@ -193,7 +182,8 @@
   {
     "id": 11,
     "name": "Truenet Black Dial Stainless Steel Chain Chronograph Day Date Watch",
-    "price": 1999,
+    "price": 999,
+     "mrp": 1999,
     "description": "High-quality wireless headphones with noise cancellation.",
     "gender": "Men",
     "strapMaterial": "Cloth",
@@ -213,29 +203,31 @@
   },
   {
     "id": 12,
-    "name": "Truenet Black Dial Stainless Steel Chain Classic Day Date Watch",
-    "price": 1999,
+    "name": "Truenet Green Sunray Dial Stainless Steel Day-Date Analog Watch",
+    "price": 899,
+    "mrp": 1999,
     "description": "High-quality wireless headphones with noise cancellation.",
     "gender": "Men",
     "strapMaterial": "Cloth",
     "strapColor": "white",
     "dialType": "DTD",
-    "dialColor": "Golden",
+    "dialColor": "Green",
     "Warranty": "9 months",
 
     "images": [
-      "/truenet/TR-DIBK/img1.jpg",
-      "/truenet/TR-DIBK/img2.jpg",
-      "/truenet/TR-DIBK/img3.jpg",
-       "/truenet/TR-DIBK/img4.jpg"
+      "/truenet/TR-FB/img1.jpg",
+      "/truenet/TR-FB/img2.jpg",
+      "/truenet/TR-FB/img3.jpg",
+       "/truenet/TR-FB/img4.jpg"
 
       
     ]
   },
     {
     "id": 13,
-    "name": "Truenet Green Dial Silver Chain Day Date Analog Watch",
-    "price": 1999,
+    "name": "Truenet Black White Dual-Tone Dial Black Mesh Strap Day-Date Analog Watch",
+    "price": 799,
+    "mrp": 1699,
     "description": "High-quality wireless headphones with noise cancellation.",
     "gender": "Men",
     "strapMaterial": "Cloth",
@@ -245,8 +237,8 @@
     "Warranty": "9 months",
 
     "images": [
-      "/truenet/TR-BLWH/img1.jpeg",
       "/truenet/TR-BLWH/img2.jpeg",
+      "/truenet/TR-BLWH/img1.jpeg",
       "/truenet/TR-BLWH/img3.jpeg",
        "/truenet/TR-BLWH/img4.jpeg"
 
@@ -255,8 +247,9 @@
   },
    {
     "id": 14,
-    "name": "Truenet Black Dial Silver Chain Classic Day Date Watch",
-    "price": 1999,
+    "name": "Truenet Blue Sunray Dual-Tone Dial Stainless Steel Day-Date Analog Watch",
+    "price": 999,
+    "mrp": 1699,
     "description": "High-quality wireless headphones with noise cancellation.",
     "gender": "Men",
     "strapMaterial": "Cloth",
@@ -266,8 +259,8 @@
     "Warranty": "9 months",
 
     "images": [
-      "/truenet/TR-BRST/img1.jpeg",
       "/truenet/TR-BRST/img2.jpeg",
+      "/truenet/TR-BRST/img1.jpeg",
       "/truenet/TR-BRST/img3.jpeg"
 
       
@@ -275,8 +268,9 @@
   },
    {
     "id": 15,
-    "name": "Truenet Golden Dial Golden Chain Luxury Watch",
-    "price": 1999,
+    "name": "Truenet Coffee Brown Dial Brown Stainless Steel Day-Date Analog Watch",
+    "price": 799,
+    "mrp": 1799,
     "description": "High-quality wireless headphones with noise cancellation.",
     "gender": "Men",
     "strapMaterial": "Cloth",
@@ -286,6 +280,7 @@
     "Warranty": "9 months",
 
     "images": [
+      "/truenet/TR-CO-CH/img4.jpg",
       "/truenet/TR-CO-CH/img1.jpg",
       "/truenet/TR-CO-CH/img2.jpg",
       "/truenet/TR-CO-CH/img3.jpg"
@@ -294,8 +289,9 @@
   },
    {
     "id": 16,
-    "name": "Truenet Golden Dial Golden Chain Luxury Watch",
-    "price": 1999,
+    "name": "Truenet Black Contrast Dial Black Mesh Strap Analog Watch",
+    "price": 599,
+    "mrp": 999,
     "description": "High-quality wireless headphones with noise cancellation.",
     "gender": "Men",
     "strapMaterial": "Cloth",
@@ -313,8 +309,9 @@
   },
   {
     "id": 17,
-    "name": "Truenet Black Dial Leather Strap Day Date Watch ",
-    "price": 1999,
+    "name": "Truenet Black Minimal Dial Black Case Day-Date Analog Watch",
+    "price": 799,
+    "mrp": 1299,
     "description": "High-quality wireless headphones with noise cancellation.",
     "gender": "Men",
     "strapMaterial": "Cloth",
@@ -324,8 +321,8 @@
     "Warranty": "9 months",
 
     "images": [
-      "/truenet/TR-DI-B/img1.jpeg",
       "/truenet/TR-DI-B/img2.jpg",
+      "/truenet/TR-DI-B/img1.jpeg",
       "/truenet/TR-DI-B/img3.jpeg",
       "/truenet/TR-DI-B/img4.jpeg"
       
@@ -333,20 +330,108 @@
   },
    {
     "id": 18,
-    "name": "Truenet Black Dial Leather Strap Day Date Watch",
-    "price": 1999,
+    "name": "Truenet Golden Dial Gold Stainless Steel Day-Date Analog Watch",
+    "price": 1199,
+    "mrp": 2199,
     "description": "High-quality wireless headphones with noise cancellation.",
     "gender": "Men",
     "strapMaterial": "Cloth",
-    "strapColor": "white",
+    "strapColor": "Golden",
     "dialType": "DTD",
     "dialColor": "Golden",
     "Warranty": "9 months",
 
     "images": [
-      "/truenet/TR-SM-BL/img1.jpeg",
-      "/truenet/TR-SM-BL/img2.jpeg",
-      "/truenet/TR-SM-BL/img3.jpeg"
+      "/truenet/TR-CH-GO/img2.jpeg",
+      "/truenet/TR-CH-GO/img1.jpeg",
+      "/truenet/TR-CH-GO/img3.jpeg", 
+      "/truenet/TR-CH-GO/img4.jpeg"
+
+      
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Truenet Brown Sunray Dial Brown Leather Strap Day-Date Analog Watch",
+    "price": 1199,
+    "mrp": 1799,
+    "description": "High-quality wireless headphones with noise cancellation.",
+    "gender": "Men",
+    "strapMaterial": "Cloth",
+    "strapColor": "Golden",
+    "dialType": "DTD",
+    "dialColor": "Golden",
+    "Warranty": "9 months",
+
+    "images": [
+      "/truenet/TR-BR-ST/img1.jpeg",
+      "/truenet/TR-BR-ST/img2.jpeg",
+      "/truenet/TR-BR-ST/img3.jpeg"
+     
+
+      
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Truenet Blue Dial Blue Leather Strap Ultra Slim Analog Watch",
+    "price": 799,
+    "mrp": 1199,
+    "description": "High-quality wireless headphones with noise cancellation.",
+    "gender": "Men",
+    "strapMaterial": "Cloth",
+    "strapColor": "Golden",
+    "dialType": "DTD",
+    "dialColor": "Golden",
+    "Warranty": "9 months",
+
+    "images": [
+      "/truenet/tr-sl21/img.jpg"
+     
+
+      
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Truenet Black Dial Black Leather Strap Ultra Slim Analog Watch",
+    "price": 899,
+    "mrp": 1999,
+    "description": "High-quality wireless headphones with noise cancellation.",
+    "gender": "Men",
+    "strapMaterial": "Cloth",
+    "strapColor": "Golden",
+    "dialType": "DTD",
+    "dialColor": "Golden",
+    "Warranty": "9 months",
+
+    "images": [
+      
+      "/truenet/tr-sl21/img2.jpg"
+      
+     
+
+      
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Truenet Blue Sunray Dial Blue Leather Strap Day-Date Analog Watch",
+    "price": 999,
+    "mrp": 1999,
+    "description": "High-quality wireless headphones with noise cancellation.",
+    "gender": "Men",
+    "strapMaterial": "Cloth",
+    "strapColor": "Golden",
+    "dialType": "DTD",
+    "dialColor": "Golden",
+    "Warranty": "9 months",
+
+    "images": [
+      
+      "/truenet/tr-sl21/img3.jpg"
+     
+
       
     ]
   }
